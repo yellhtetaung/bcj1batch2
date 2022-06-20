@@ -22,6 +22,8 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
+    position: relative;
 }
 
 /* Start nav bar */
@@ -30,6 +32,62 @@ header {
     padding: 20px 30px;
 }
 
+.menuitems {
+    color: #eee;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.menuitems:hover {
+    color: #1aaee8;
+}
+
+.lines1,
+.lines2,
+.lines3 {
+    width: 25px;
+    height: 3px;
+    margin: 6px;
+}
+
 /* End nav bar */
+
+/* Start banner */
+.banners {
+    width: 80%;
+
+    position: absolute;
+    left: 50%;
+    top: 50%;
+
+    transform: translate(-50%, -50%);
+}
+
+.bannerheaders {
+    animation-name: bananni;
+    animation-duration: 2s;
+}
+
+.bannerparagraphs {
+    animation-name: bananni;
+    animation-duration: 2s;
+    animation-delay: 1s;
+
+    animation-fill-mode: backwards;
+}
+
+@keyframes bananni {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
+
+/* End banner */
 
 /* End Header */
