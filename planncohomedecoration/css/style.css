@@ -381,3 +381,30 @@ ul.clientslists li:hover {
 }
 
 /* End Customers */
+
+/* Start Request Quote */
+
+.quotes{
+    background-color: var(--secondary-color);
+    padding: 30px 50px;
+    margin: -30px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quotes .btn-calls{
+    width: 170px;
+    height: 50px;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 15px;
+    line-height: 50px;
+    border: 0;
+    border-radius: 100px;
+
+    padding: 0;
+}
+
+/* End Request Quote */
