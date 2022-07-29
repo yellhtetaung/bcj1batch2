@@ -1,7 +1,7 @@
-@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
 
 body {
-    font-family: 'Quicksand', sans-serif;
+    font-family: "Quicksand", sans-serif;
 }
 
 /* Start Header Section */
@@ -45,11 +45,16 @@ body {
 }
 
 .banners2 {
-    background-image: url(../assets/img/banner/banner4.jpg);
+    background-image: url(../assets/img/banner/banner5.jpg);
 }
 
 .banners3 {
-    background-image: url(../assets/img/banner/banner4.jpg);
+    background-image: url(../assets/img/banner/banner6.jpg);
+}
+
+.btn-blues {
+    background-color: darkblue;
+    color: #fff;
 }
 
 /* End Banner Section */
