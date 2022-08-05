@@ -1,23 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap");
 
-body
-{
+body {
     font-family: "Quicksand", sans-serif;
 }
 
 /* Start Header Section */
 /* Start Header Intro Section */
 
-.headerintros
-{
+.headerintros {
     height: 50px;
     background-color: blue;
     color: #fff;
     display: none;
 }
 
-.headerintros .infos
-{
+.headerintros .infos {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -25,10 +22,8 @@ body
     font-weight: bold;
 }
 
-@media (min-width: 1200px)
-{
-    .visiblelgs
-    {
+@media (min-width: 1200px) {
+    .visiblelgs {
         display: block;
     }
 }
@@ -37,32 +32,27 @@ body
 
 /* Start Banner Section */
 
-.carousel-item
-{
+.carousel-item {
     height: 60vh;
 }
 
 .banners1,
 .banners2,
-.banners3
-{
+.banners3 {
     background-image: url(../assets/img/banner/banner4.jpg);
     background-repeat: no-repeat;
     background-size: cover;
 }
 
-.banners2
-{
+.banners2 {
     background-image: url(../assets/img/banner/banner5.jpg);
 }
 
-.banners3
-{
+.banners3 {
     background-image: url(../assets/img/banner/banner6.jpg);
 }
 
-.btn-blues
-{
+.btn-blues {
     background-color: darkblue;
     color: #fff;
 }
@@ -71,8 +61,7 @@ body
 /* End Header Section */
 
 /* Start Feature Section */
-.iconboxes
-{
+.iconboxes {
     background-color: #fff;
     box-shadow: 0 2px 15px rgba(0, 0, 0, 0.2);
     padding: 50px 20px;
@@ -80,8 +69,7 @@ body
     position: relative;
 }
 
-.icons
-{
+.icons {
     width: 70px;
     height: 70px;
     background-color: darkcyan;
@@ -97,8 +85,7 @@ body
     top: -35px;
 }
 
-.icons:hover
-{
+.icons:hover {
     background-color: transparent;
     color: darkcyan;
     border: 2px solid darkcyan;
@@ -108,43 +95,35 @@ body
 
 /* Start Info Section */
 
-.fromlefts
-{
+.fromlefts {
     animation-name: myleft;
     animation-duration: 3s;
 }
 
-.fromrights
-{
+.fromrights {
     animation-name: myright;
     animation-duration: 3s;
 }
 
-@keyframes myleft
-{
-    from
-    {
+@keyframes myleft {
+    from {
         transform: translateX(-30px);
         opacity: 0;
     }
 
-    to
-    {
+    to {
         transform: translateX(0px);
         opacity: 1;
     }
 }
 
-@keyframes myright
-{
-    from
-    {
+@keyframes myright {
+    from {
         transform: translateX(30px);
         opacity: 0;
     }
 
-    to
-    {
+    to {
         transform: translateX(0px);
         opacity: 1;
     }
@@ -154,11 +133,10 @@ body
 
 /* Start Adv Section */
 
-.advs
-{
+.advs {
     height: 300px;
     background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../assets/img/banner/banner1.jpg");
+        url("../assets/img/banner/banner1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -173,8 +151,7 @@ body
 /* End Adv Section */
 
 /*Start Departments Section*/
-.deptboxs
-{
+.deptboxs {
     box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
     border-radius: 20px;
     position: relative;
@@ -182,16 +159,14 @@ body
     overflow: hidden;
 }
 
-.deptboxs img
-{
+.deptboxs img {
     width: 100%;
     object-fit: cover;
 
     transition: all .5s;
 }
 
-.deptboxs .contents
-{
+.deptboxs .contents {
     width: 80%;
     height: 100%;
     background-color: #fff;
@@ -204,8 +179,7 @@ body
     transition: all .5s;
 }
 
-.deptboxs a
-{
+.deptboxs a {
     background: steelblue;
     color: #fff;
     font-size: 14px;
@@ -220,8 +194,7 @@ body
     transition: all .5s;
 }
 
-.deptboxs:hover .contents
-{
+.deptboxs:hover .contents {
     width: 100%;
     height: 60%;
 
@@ -229,19 +202,16 @@ body
     bottom: 0;
 }
 
-.deptboxs:hover a
-{
+.deptboxs:hover a {
     opacity: 1;
     transition-delay: .3s;
 }
 
-.deptboxs:hover img
-{
+.deptboxs:hover img {
     transform: scale(1.2);
 }
 
-.deptboxs h3
-{
+.deptboxs h3 {
     color: steelblue;
     font-size: 16px;
     font-weight: bold;
@@ -249,8 +219,7 @@ body
     padding-top: 6px;
 }
 
-.deptboxs p
-{
+.deptboxs p {
     width: 80%;
     font-size: 13px;
     margin: 10px auto;
@@ -260,8 +229,7 @@ body
 
 /* Start Pricing Section */
 
-.pricingcards
-{
+.pricingcards {
     background-color: #fff;
     text-align: center;
     padding-bottom: 40px;
@@ -269,33 +237,28 @@ body
     transition: all .4s;
 }
 
-.pricingcards .pricingheaders
-{
+.pricingcards .pricingheaders {
     padding: 40px 20px;
     border-bottom: 2px solid #f3f3f3;
 }
 
-.pricingcards .prices
-{
+.pricingcards .prices {
     color: blue;
     font-size: 30px;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
-.pricingcards ul
-{
+.pricingcards ul {
     padding: 0;
 }
 
-.pricingfeatures ul li
-{
+.pricingfeatures ul li {
     list-style: none;
     margin: 10px 0;
 }
 
-.btn-pricings
-{
+.btn-pricings {
     background: linear-gradient(-90deg, skyblue, blue);
     color: #fff;
     font-weight: bold;
@@ -304,81 +267,140 @@ body
     padding: 10px 30px;
 }
 
-.btn-pricings:hover
-{
+.btn-pricings:hover {
     background: linear-gradient(90deg, skyblue, blue);
 }
 
-.pricingcards:hover
-{
+.pricingcards:hover {
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
     transform: translateY(-20px);
 }
 
-.pricingcards:hover .pricingheaders
-{
+.pricingcards:hover .pricingheaders {
     background: linear-gradient(90deg, skyblue, blue);
     color: #fff;
 }
 
-.movelefts
-{
+.movelefts {
     animation-name: movefromleft;
     animation-duration: 2s;
 }
 
-.moverights
-{
+.moverights {
     animation-name: movefromright;
     animation-duration: 2s;
 }
 
-.movebottoms
-{
+.movebottoms {
     animation-name: movefrombottom;
     animation-duration: 2s;
 }
 
-@keyframes movefromleft
-{
-    from
-    {
+@keyframes movefromleft {
+    from {
         transform: translateX(-100px);
         opacity: 0;
     }
-    to
-    {
+
+    to {
         transform: translateX(0px);
         opacity: 1;
     }
 }
 
-@keyframes movefromright
-{
-    from
-    {
+@keyframes movefromright {
+    from {
         transform: translateX(100px);
         opacity: 0;
     }
-    to
-    {
+
+    to {
         transform: translateX(0px);
         opacity: 1;
     }
 }
 
-@keyframes movefrombottom
-{
-    from
-    {
+@keyframes movefrombottom {
+    from {
         transform: translateY(100px);
         opacity: 0;
     }
-    to
-    {
+
+    to {
         transform: translateY(0px);
         opacity: 1;
     }
 }
 
 /* End Pricing Section */
+
+/* Start Join Us Section */
+
+.customforms {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 30px;
+}
+
+/* End Join Us Section */
+
+/* Start Footer */
+
+.socialicons a {
+    color: #fff;
+    border: 1px solid #f4f4f4;
+    padding: 5px;
+    margin: 0 5px;
+}
+
+.socialicons a:hover {
+    background-color: blue;
+}
+
+.footerlinks {
+    color: #eee;
+    font-size: 13px;
+    text-decoration: none;
+    transition: all .3s;
+}
+
+.footerlinks:hover {
+    color: orange;
+    border-bottom: 1px solid orange;
+    letter-spacing: 1px;
+}
+
+/* End Footer */
+
+
+/* Start Progress */
+#progresses {
+    width: 50px;
+    height: 50px;
+    background-color: #eee;
+    border-radius: 50%;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+
+    position: fixed;
+    right: 20px;
+    bottom: 20px;
+
+    display: grid;
+    place-items: center;
+
+    z-index: 100;
+
+}
+
+#progressvalues {
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    background-color: #fff;
+    border-radius: 50%;
+    font-weight: bold;
+
+    display: grid;
+    place-items: center;
+}
+
+/* End Progress */
